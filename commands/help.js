@@ -62,20 +62,20 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1150827819547504741/1168917372267151370/standard.gif?ex=65538222&is=65410d22&hm=b4994392f44679da41fc9304eb69deaa3769e136057556deec0db69ae8d33a97&')
+       .setImage('https://cdn.discordapp.com/attachments/1152042508851875990/1237013487872512114/Banner.png?ex=663a1a16&is=6638c896&hm=4aef9e5eb757a1c18b51582d2c5b8f8d371bff90a71772b3978a40f3a5bf4276&')
       const button1 = new ButtonBuilder()
-        .setLabel('YouTube')
-        .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+        .setLabel('Main YT Channel')
+        .setURL('https://www.youtube.com/@Arcticzz')
         .setStyle(ButtonStyle.Link);
-
+      
       const button2 = new ButtonBuilder()
-        .setLabel('Discord')
-        .setURL('https://discord.gg/FUEHs7RCqz')
+        .setLabel('Music YT Channel')
+        .setURL('https://www.youtube.com/@Arcticz-Music')
         .setStyle(ButtonStyle.Link);
 
       const button3 = new ButtonBuilder()
-        .setLabel('Code')
-        .setURL('https://github.com/GlaceYT/MUSIC-BOT-v3.6')
+        .setLabel('Vehicle Development Discord!')
+        .setURL('https://discord.gg/R2C2Kft9eP')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
