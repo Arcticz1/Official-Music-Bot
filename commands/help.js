@@ -62,7 +62,7 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1152042508851875990/1237013487872512114/Banner.png?ex=663a1a16&is=6638c896&hm=4aef9e5eb757a1c18b51582d2c5b8f8d371bff90a71772b3978a40f3a5bf4276&')
+       .setImage('https://cdn.discordapp.com/attachments/1152042508851875990/1237209012840435745/Banner.png?ex=663ad02e&is=66397eae&hm=13fd6bf9067d3017f000d11d71a282e354e16c9a0cb9322c01b5c746a7b00a6a&')
       const button1 = new ButtonBuilder()
         .setLabel('Main YT Channel')
         .setURL('https://www.youtube.com/@Arcticzz')
